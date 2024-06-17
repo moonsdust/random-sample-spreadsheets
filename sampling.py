@@ -6,6 +6,7 @@ if __name__ == "__main__":
     # 1. Import excel file named <input_file> and create a dataframe from it
     input_file = 'input_file.xlsx' # TODO: Update this with the relative path to where your input file is located
     data = pd.read_excel(input_file)
+    # data = pd.read_csv(input_file) # Uncomment this if the input_file is a CSV file instead
     data = pd.DataFrame(data)
     
     # 2. Calculate number of messages to sample based on the unique value from <key_column> and convert into dictionary
