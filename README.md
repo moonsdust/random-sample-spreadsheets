@@ -1,2 +1,2 @@
 # random-sample-spreadsheets
-Randomly sample from an Excel spreadsheet based on given column to generate CSV or Excel Spreadsheet.
+Randomly sample from an Excel spreadsheet based on given column to generate a CSV file or Excel Spreadsheet.
