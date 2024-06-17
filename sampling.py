@@ -4,7 +4,7 @@ import openpyxl
 
 if __name__ == "__main__":
     # 1. Import excel file named <input_file> and create a dataframe from it
-    input_file = 'input_file.xlsx' # TODO: Update this with your input file name
+    input_file = 'input_file.xlsx' # TODO: Update this with the relative path to where your input file is located
     data = pd.read_excel(input_file)
     data = pd.DataFrame(data)
     
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     len(output_data)
     
     # 6. Export (Comment out line depending on what output file you want)
-    output_file_name = 'output_file.xlsx' # TODO: Update this!
+    output_file_name = 'output_file.xlsx' # TODO: Update this with the relative path to your output destination including your output file name
     # Export as a CSV
     # output_data.to_csv(output_file_name, index=False)
     # Export as an Excel spreadsheet
